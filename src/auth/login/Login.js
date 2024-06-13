@@ -43,11 +43,11 @@ const Login = () => {
 <div>
 
        <Typography className='text-[20px]'>Welcome to Lorem</Typography>
-       <Typography className='text-[34px] font-bold mb-8 mt-2'>Sign in</Typography>
+       <Typography className='text-[34px] font-bold mb-8 mt-2 '>Sign in</Typography>
 </div>
 <Typography className='text-[gray]' onClick={()=>{
    navigate('/register');
-}}>No account? <span className='text-[#ECBC76]'>Sign up</span></Typography>
+}}>No account? <span className='text-[#ECBC76] cursor-pointer'>Sign up</span></Typography>
       </div>
         {error && <Alert message={error} type="error" showIcon className="mb-4" />}
         <Form form={form} onFinish={handleSubmit}>

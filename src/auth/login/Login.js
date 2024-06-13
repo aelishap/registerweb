@@ -37,7 +37,7 @@ const Login = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen" style={{ background: 'linear-gradient(90deg, #ECBC76 50%, #FFFFFF 50%)' }}>
-    {isMobile > 950 && <img src={Images.images2} className='pb-[190px] w-[14%]' />}
+    {isMobile > 950 && <img src={Images.images2} className='pb-[190px] w-[14%]' alt="err" />}
      <div className=" w-[80%] md:w-[47%] xl:w-[35%]  p-8 bg-white rounded-[8%] shadow-2xl shadow-[gray]">
       <div className='flex justify-between'>
 <div>
@@ -92,7 +92,7 @@ const Login = () => {
         </p>
 
       </div>
-      {isMobile > 950 &&<img src={Images.images1} className='w-[20%] '/>}
+      {isMobile > 950 &&<img src={Images.images1} className='w-[20%] ' alt="err" />}
     </div>
   );
 };

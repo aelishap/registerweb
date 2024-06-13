@@ -39,8 +39,8 @@ const Register = () => {
         <Typography className='text-[34px] font-bold mb-8 mt-2'>SignUp</Typography>
         </div>
 <Typography className='text-[gray]' onClick={()=>{
-   navigate('/register');
-}}>Have an account? <span className='text-[#ECBC76]'>Sign in</span></Typography>
+   navigate('/login');
+}}>Have an account? <span className='text-[#ECBC76] cursor-pointer'>Sign in</span></Typography>
       </div>
         <Form form={form} onFinish={handleSubmit}>
           <Typography>Enter your email address</Typography>

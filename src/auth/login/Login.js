@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate, Link, Navigate } from 'react-router-dom';
+import { useNavigate, Navigate } from 'react-router-dom';
 import { login } from '../../redux/actions/auth.action';
 import { Form, Input, Button, Alert,Typography} from 'antd';
 import { Images } from '../../assests/images/images';
